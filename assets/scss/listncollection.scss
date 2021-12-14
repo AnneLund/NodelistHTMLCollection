@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 1200px;
+  margin: auto;
+  gap: 15px;
+}
+
+article {
+  line-height: 30px;
+  text-align: center;
+  h2 {
+    font-size: 30px;
+    margin: 15px 0;
+  }
+}
+
+#nodelist,
+#htmlcollection {
+  background-color: cadetblue;
+}
